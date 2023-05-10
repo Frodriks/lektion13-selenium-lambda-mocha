@@ -31,7 +31,7 @@ describe('Add a todo LambdaTest sample app', () => {
         todoText.should.equal('Learn Selenium');     // Chai should
 
         // Close browser and exit Selenium
-        await driver.quit();
+       await driver.quit();
     });
     it('This test should be pending');
 });
